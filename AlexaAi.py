@@ -1,4 +1,9 @@
 from pyrogram import Client, filters
+from pyrogram.errors import (
+    PeerIdInvalid,
+    ChatWriteForbidden
+)
+from pyrogram.errors import ChatAdminRequired, UserNotParticipant, ChatWriteForbidden
 import asyncio
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from pymongo import MongoClient
