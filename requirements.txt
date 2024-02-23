@@ -1,9 +1,9 @@
 flask==2.1.1
-werkzeug==2.0.3
+werkzeug==3.0.1
 aiohttp
-pyrogram==1.4.16
+pyrogram==2.0.106
 pymongo
 requests
 dnspython
-tgcrypto==1.2.2
+tgcrypto
 python-dotenv
